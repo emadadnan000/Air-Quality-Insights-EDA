@@ -36,24 +36,24 @@ Files used:
 
 ---
 
-
----
-
 ## 📊 Visualizations
-The project includes the following visualizations:
 
 - 📉 **Line plot** showing monthly AQI trends for selected cities
+
 ![Line plot](Visualization/lineplot.png)
 
 - 🔥 **Heatmap** showing correlation between pollutants (`PM2.5`, `PM10`, `NO2`, `SO2`, `O3`, `CO`)
+
 ![Heatmap](Visualization/heatmap.png)
 
 - 🏭 **Stacked bar chart** of pollutant contributions across cities
+
 ![Bar chart](Visualization/bar1.png)
 
-
 ### 🗺 Map Visualization
+
 One of the highlights of this project is the **interactive AQI map** built using Folium. It allows you to explore pollution levels geographically across different Indian cities.
+
 ![Map](Visualization/map.png)
 
 You can download the file "aqi_map.html" and open it in any browser to view the full interactivity.
@@ -80,16 +80,36 @@ You can download the file "aqi_map.html" and open it in any browser to view the 
 
 ---
 
+## 🚀 How to Run
 
+1. **Clone the Repository**  
 
----
+   ```bash
+   git clone https://github.com/emadadnan000/Air-Quality-Insights-EDA.git
+   cd Air-Quality-Insights-EDA
+   ```
 
+2. **Install Dependencies**  
+
+   Ensure you have Python installed. Then, install the required libraries:  
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the Jupyter Notebook**  
+
+   Start Jupyter Notebook and open `AIR Quality EDA.ipynb`:  
+
+   ```bash
+   jupyter notebook
+   ```
+
+4. **View the Interactive Map**  
+
+   After running the notebook, open `aqi_map.html` in your browser to explore the interactive map.
+
+--- 
 ## 👤 Author
-- **Syed Azib (SMIT Project)**
-- 📧 Contact: azibwaseem0@gmail.com
-- 🌐 GitHub: [SyedAzib](https://github.com/SyedAzib)
-
----
-
-## 📄 License
-This project is licensed under the MIT License – feel free to use and modify with attribution.
+- **Emad Adnan (SMIT Project)**
+- 🌐 GitHub: [EmadAdnan](https://github.com/emadadnan000)
