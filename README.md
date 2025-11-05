@@ -40,21 +40,21 @@ Files used:
 
 - 📉 **Line plot** showing monthly AQI trends for selected cities
 
-![Line plot](Visualization/lineplot.png)
+![Line plot](Visualizations/lineplot.png)
 
 - 🔥 **Heatmap** showing correlation between pollutants (`PM2.5`, `PM10`, `NO2`, `SO2`, `O3`, `CO`)
 
-![Heatmap](Visualization/heatmap.png)
+![Heatmap](Visualizations/heatmap.png)
 
 - 🏭 **Stacked bar chart** of pollutant contributions across cities
 
-![Bar chart](Visualization/bar1.png)
+![Bar chart](Visualizations/bar1.png)
 
 ### 🗺 Map Visualization
 
 One of the highlights of this project is the **interactive AQI map** built using Folium. It allows you to explore pollution levels geographically across different Indian cities.
 
-![Map](Visualization/map.png)
+![Map](Visualizations/map.png)
 
 You can download the file "aqi_map.html" and open it in any browser to view the full interactivity.
 
