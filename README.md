@@ -54,7 +54,7 @@ Files used:
 
 One of the highlights of this project is the **interactive AQI map** built using Folium. It allows you to explore pollution levels geographically across different Indian cities.
 
-![Map](Visualizations/map.png)
+![Map](Visualizations/map.jepg)
 
 You can download the file "aqi_map.html" and open it in any browser to view the full interactivity.
 
