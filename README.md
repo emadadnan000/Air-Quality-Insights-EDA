@@ -1,0 +1,95 @@
+# 🌍 Air Quality EDA Project
+
+## 📌 Project Overview
+Air pollution is one of the most pressing global environmental challenges, directly impacting human health, ecosystems, and climate. Monitoring air quality helps policymakers and environmental agencies make informed decisions to control emissions and protect public health.
+
+In this project, we explore **global air quality datasets** (with a focus on India) to identify pollution trends, seasonal variations, and city/country comparisons. The dataset used is sourced from Kaggle:
+
+➡️ [Air Quality Data in India (Kaggle)](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india)
+
+---
+
+## 🎯 Objectives
+This project aims to:
+1. Perform **Exploratory Data Analysis (EDA)** on air quality datasets.
+2. Identify patterns and trends in **Air Quality Index (AQI)** and pollutants.
+3. Compare **cities, regions, and seasons** in terms of air quality.
+4. Visualize results with meaningful plots and maps.
+
+---
+
+## 📂 Dataset Description
+The Kaggle dataset contains air quality measurements at **city-level** and **station-level**, recorded on an **hourly** and **daily** basis.
+
+Files used:
+- `city_day.csv` → City-level daily data
+- `city_hour.csv` → City-level hourly data
+- `station_day.csv` → Station-level daily data
+- `station_hour.csv` → Station-level hourly data
+- `stations.csv` → Metadata for monitoring stations
+
+### Key Columns:
+- `City`: Name of the city
+- `Date`: Date of observation
+- `AQI`: Air Quality Index
+- Pollutants: `PM2.5`, `PM10`, `NO2`, `SO2`, `O3`, `CO`
+
+---
+
+
+---
+
+## 📊 Visualizations
+The project includes the following visualizations:
+
+- 📉 **Line plot** showing monthly AQI trends for selected cities
+![Line plot](Visualization/lineplot.png)
+
+- 🔥 **Heatmap** showing correlation between pollutants (`PM2.5`, `PM10`, `NO2`, `SO2`, `O3`, `CO`)
+![Heatmap](Visualization/heatmap.png)
+
+- 🏭 **Stacked bar chart** of pollutant contributions across cities
+![Bar chart](Visualization/bar1.png)
+
+
+### 🗺 Map Visualization
+One of the highlights of this project is the **interactive AQI map** built using Folium. It allows you to explore pollution levels geographically across different Indian cities.
+![Map](Visualization/map.png)
+
+You can download the file "aqi_map.html" and open it in any browser to view the full interactivity.
+
+---
+
+## ⚙️ Tools & Libraries Used
+- **Python** 🐍
+- **Pandas** – Data manipulation
+- **NumPy** – Numerical operations
+- **Matplotlib & Seaborn** – Data visualization
+- **Folium** – Interactive map visualizations
+- **Jupyter Notebook** – Development environment
+
+---
+
+## 📌 Results & Insights
+- Identified the **most polluted cities** and the **cleanest city** on average.
+- Found **seasonal variations** in AQI (higher pollution in winter months).
+- Observed **strong correlation** between particulate matter (PM2.5 & PM10) and AQI.
+- Noted **missing data patterns** in some pollutants.
+- Compared **weekend vs weekday pollution trends**.
+- Built an **interactive AQI map** for geographic exploration.
+
+---
+
+
+
+---
+
+## 👤 Author
+- **Syed Azib (SMIT Project)**
+- 📧 Contact: azibwaseem0@gmail.com
+- 🌐 GitHub: [SyedAzib](https://github.com/SyedAzib)
+
+---
+
+## 📄 License
+This project is licensed under the MIT License – feel free to use and modify with attribution.
