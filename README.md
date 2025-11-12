@@ -86,3 +86,4 @@ You can download the file "aqi_map.html" and open it in any browser to view the 
 ## 👤 Author
 - **Emad Adnan (SMIT Project)**
 - 🌐 GitHub: [EmadAdnan](https://github.com/emadadnan000)
+- 🔗LinkedIn:  [EmadAdnan](https://www.linkedin.com/in/emad-adnan/)
