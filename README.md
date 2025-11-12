@@ -21,13 +21,6 @@ This project aims to:
 ## 📂 Dataset Description
 The Kaggle dataset contains air quality measurements at **city-level** and **station-level**, recorded on an **hourly** and **daily** basis.
 
-Files used:
-- `city_day.csv` → City-level daily data
-- `city_hour.csv` → City-level hourly data
-- `station_day.csv` → Station-level daily data
-- `station_hour.csv` → Station-level hourly data
-- `stations.csv` → Metadata for monitoring stations
-
 ### Key Columns:
 - `City`: Name of the city
 - `Date`: Date of observation
